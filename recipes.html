@@ -8,6 +8,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
+      {% if post.category == 'recipes' %}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -15,7 +16,7 @@ layout: default
           <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
           <span>Category: {{ post.category }}</span>
       </li>
-      
+      {% endif %}
     {% endfor %}
   </ul>
 
