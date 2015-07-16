@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vanilla protien cottage cheese "
+title:  "Vanilla protien cottage cheese"
 date:   2015-01-13 20:07:59
 category: recipes
 ---
