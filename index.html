@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Our posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -15,7 +15,7 @@ layout: default
           <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
           <span>Category: {{ post.category }}</span>
       </li>
-      
+
     {% endfor %}
   </ul>
 
