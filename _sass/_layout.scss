@@ -15,6 +15,11 @@
   background: $grey-color-light;
   padding: 20px 0;
   font-size: 1.25em;
+  @include media-query($on-laptop) {
+      padding-right: $spacing-unit / 2;
+      padding-left: $spacing-unit / 2;
+  }
+
   p {
     margin-bottom: 0;
   }
